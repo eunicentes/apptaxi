@@ -1,0 +1,51 @@
+body{
+    background-image: url('taxi2.jpeg');
+    backdrop-filter:blur(9px);
+    background-size: cover;
+    background-position: center;
+}
+.form-contenair{
+    
+    width: 400px;
+    margin: 0 auto;
+    border: black;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+/*css pour les labels*/
+input[type="text"], input[type="email"], input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   background-color: rgb(14, 14, 13);
+   color: snow;
+}
+input:focus{
+    border-color: rgb(214, 218, 31);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    
+}
+/*css pour submit*/
+input[type="submit"]{
+    padding:  10px 20px;
+    background-color: #c2d329;
+    color: rgb(7, 6, 6);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(5, 5, 5);
+    color: rgb(248, 242, 242);
+}
+/*labels*/
+label{
+    color: rgb(245, 245, 243);
+    font-weight: bold;
+    text-align: center;
+   
+}
